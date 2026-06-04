@@ -1,0 +1,61 @@
+:root {
+  --primary-border-radius: 6px;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 13px;
+}
+
+body {
+  background-color: #22013d;
+  color: #fff;
+}
+
+button {
+  background-color: #9d5ad3;
+  color: #fff;
+  border: none;
+  /* Define espaçamento no eixo x de 50px */
+  padding-inline: 50px;
+  padding-block: 6px;
+  border-radius: var(--primary-border-radius);
+  /* Propriedades de espaçamento */
+  /* padding-bottom: 10px;
+        padding-top: 20px;
+        padding-left: 300px;
+        padding-right: 600px; */
+}
+
+input {
+  background-color: transparent;
+  color: #fff;
+  border: 1.5px solid #9d5ad3;
+  padding-inline: 50px;
+  padding-block: 6px;
+  border-radius: var(--primary-border-radius);
+}
+
+div {
+}
+
+/* Selector de elmento por ID */
+/* #email {
+  background-color: red;
+} */
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-block: 16px;
+}
+
+.form-control label {
+  padding-bottom: 4px;
+}
+
+#login-form {
+  max-width: 300px;
+  margin-inline: auto;
+  display: block;
+}
