@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="/public/style.css" />
   </head>
   <body>
-    <h1>Expense Tracker</h1>
-    <h2>Manage Your Expense With Ease</h2>
+    <div id="title">
+      <h1>Expense Tracker</h1>
+      <h2>Manage Your Expense With Ease</h2>
+    </div>
 
     <form id="login-form">
       <div class="form-control">
@@ -20,9 +22,11 @@
         <input id="password" />
       </div>
 
-      <a href="/auth/forgot-password.html">Esqueceu a password?</a>
+      <a id="forgot-password-link" href="/auth/forgot-password.html"
+        >Esqueceu a password?</a
+      >
 
-      <button> Iniciar Sessão </button>
+      <button id="login-button"> Iniciar Sessão </button>
     </form>
   </body>
 </html>
